@@ -1,0 +1,20 @@
+{
+  "develop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dapp-develop-211822-authRole",
+      "UnauthRoleArn": "arn:aws:iam::727818404418:role/amplify-dapp-develop-211822-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::727818404418:role/amplify-dapp-develop-211822-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dapp-develop-211822-deployment",
+      "UnauthRoleName": "amplify-dapp-develop-211822-unauthRole",
+      "StackName": "amplify-dapp-develop-211822",
+      "StackId": "arn:aws:cloudformation:us-east-1:727818404418:stack/amplify-dapp-develop-211822/bfa40740-b430-11eb-881e-12cf2806950f",
+      "AmplifyAppId": "d21qizb84npe5a"
+    },
+    "categories": {
+      "auth": {
+        "dapp": {}
+      }
+    }
+  }
+}
