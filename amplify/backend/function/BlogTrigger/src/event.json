@@ -1,0 +1,9 @@
+{
+  "Records": [
+    {
+      "eventID": "value1",
+      "eventName": "value2",
+      "dynamodb": "value3"
+    }
+  ]
+}

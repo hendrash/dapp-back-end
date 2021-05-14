@@ -23,5 +23,37 @@
         }
       }
     }
+  },
+  "function": {
+    "BlogTrigger": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "api",
+          "resourceName": "dapp",
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput"
+          ]
+        },
+        {
+          "category": "storage",
+          "resourceName": "dappDb",
+          "attributes": [
+            "Name",
+            "Arn",
+            "StreamArn"
+          ]
+        }
+      ]
+    }
+  },
+  "storage": {
+    "dappDb": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }
